@@ -44,7 +44,9 @@ export class Product extends React.Component {
                     </FormGroup>
                 </form>
                 <div className="show-value">{this.state.hour} horas somente R$ {this.state.price}</div>
-                <Link to="/login" className="button">contratar</Link>
+                <div className="center">
+                    <Link to="/login" className="button">contratar</Link>
+                </div>
             </div>
         );
     }
