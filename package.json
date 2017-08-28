@@ -14,9 +14,15 @@
   "author": "Janine Schneiders",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.5",
     "grommet": "^1.6.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.3",
+    "react-bootstrap": "^0.31.2",
     "react-dom": "^15.6.1",
-    "reactjs": "^1.0.0"
+    "reactjs": "^1.0.0",
+    "style-loader": "^0.18.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

@@ -1,0 +1,63 @@
+.header{
+    background-color: #a00ec4;
+    border: 0;
+}
+.logo{
+    text-align: center;
+    padding: 10px 0;
+}
+.form{
+    margin-top: 60px;
+}
+label{
+    color: #6f6d6d;
+    font-size: 16px;
+}
+.show-value{
+    color: #44115f;
+    font-size: 16px;
+    text-align: center;
+}
+button{
+	font-size: 1.125rem;
+	font-weight: 600;
+	border: 1px solid #a00ec4;
+    color: #fff;
+    background-color: #a00ec4;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	border-radius: 100px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	min-width: 160px;
+	outline: 0;
+	min-height: 69px;
+	height: 69px;
+	line-height: 69px;
+	padding: 0 30px;
+	margin-top: 15%;
+	text-decoration: none;
+
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+}
+
+button:hover{
+	background-color: rgba(255,255,255,0.7);	
+	color: #a00ec4;
+	-webkit-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
