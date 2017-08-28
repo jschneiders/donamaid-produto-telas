@@ -3,6 +3,7 @@ import React from "react";
 import { FormGroup } from 'react-bootstrap';
 import { FormControl } from 'react-bootstrap';
 import { ControlLabel } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 export class Product extends React.Component {
 
@@ -43,7 +44,7 @@ export class Product extends React.Component {
                     </FormGroup>
                 </form>
                 <div className="show-value">{this.state.hour} horas somente R$ {this.state.price}</div>
-                <button>contratar</button>
+                <Link to="/login" className="button">contratar</Link>
             </div>
         );
     }
